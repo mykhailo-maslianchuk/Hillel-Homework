@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Cera Pro Regular";
+    src: url(../fonts/CeraPro-Regular.eot) format(eot),
+         url(../fonts/CeraPro-Regular.ttf) format(TruType),
+         url(../fonts/CeraPro-Regular.woff) format(woff);
+         font-weight: 400;
+}
+
+@font-face {
+    font-family: "Cera Pro Medium";
+    src: url(../fonts/CeraPro-Medium.eot) format(eot),
+         url(../fonts/CeraPro-Medium.ttf) format(TruType),
+         url(../fonts/CeraPro-Medium.woff) format(woff);
+         font-weight: 500;
+}
+
+@font-face {
+    font-family: "Cera Pro Bold";
+    src: url(../fonts/CeraPro-Bold.eot) format(eot),
+         url(../fonts/CeraPro-Bold.ttf) format(TruType),
+         url(../fonts/CeraPro-Bold.woff) format(woff);
+         font-weight: 700;
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 656px;
+    background-color: #fff;
+}
+
+.close{
+    margin-top: 13px;
+    margin-left: 469px;
+}
+
+.close_button_img{
+    width: 18px;
+    height: 18px;
+}
+
+.container_reg{
+    margin-top: 21px;
+    margin: 0 auto;
+    width: 300px;
+    background-color: #fff;
+}
+
+.reg_text{
+    text-align: center;
+    color: #3D3D3D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.reg_text_modification{
+    margin-left: 10px;
+}
+
+.reg_text_color{
+    margin-left: 10px;
+    color: #46A358;
+}
+
+.h2 .h3{
+    color: #3D3D3D;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.reg_information{
+    margin-top: 40px;
+}
+
+.container_reg_form{
+    margin-top: 16px;
+}
+
+.container_reg_form_text{
+    width: 300px;
+    height: 40px;
+    padding: 12px 0 12px 14px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+
+    color: #A5A5A5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.btn{
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn_reg{
+    margin-top: 40px;
+    border-radius: 5px;
+    background: #46A358;
+
+    color: #fff;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.or_reg{
+    margin: 0 auto;
+    margin-top: 36px;
+}
+
+.or_reg_text{
+    text-align: center;
+    color: #3D3D3D;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn_reg_login_google{
+    margin-top: 27px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+
+}
+
+.btn_reg_login_facebook{
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+
+.btn_reg_login_img{
+    width: 20px;
+    height: 20px;
+}
+
+.btn_reg_login_link_text{
+    color: #727272;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px
+}
+
+.text_link_g{
+    margin-left: 9px;
+}
+
+.text_link_f{
+    margin-left: 4px;
+}
+
+.container_reg_footer{
+    margin-top: 40px;
+    width: 500px;
+    height: 10px;
+    background: #46A358;
+}

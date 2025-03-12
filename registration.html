@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/registration-reset.css">
+    <link rel="stylesheet" href="./css/registration.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="close">
+            <a href="./index.html" class="close_button"><img src="./icons/X.svg" alt="close_button" class="close_button_img"></a>
+        </div>
+
+        <div class="container_reg">
+
+            <h1 class="reg_text">Login<span class="reg_text_modification">|</span><span class="reg_text_color">Register</span></h1>
+
+            <h2 class="reg_information">Enter your email and password to register.</h2>
+
+            <div class="container_reg_form">
+                <label for="text"></label>
+                <input class="container_reg_form_text" placeholder="Username" type="text">
+            </div>
+
+            <div class="container_reg_form">
+                <label for="email"></label>
+                <input class="container_reg_form_text" placeholder="Enter your email address" type="email">
+            </div>
+
+            <div class="container_reg_form">
+                <label for="password"></label>
+                <input class="container_reg_form_text" placeholder="Password" type="password">
+            </div>
+
+            <div class="container_reg_form">
+                <label for="password"></label>
+                <input class="container_reg_form_text" placeholder="Confirm Password" type="password">
+            </div>
+
+            <button type="submit" class="btn btn_reg">Register</button>
+
+            <div class="or_reg">
+                <h3 class="or_reg_text">Or register with</h3>
+            </div>
+
+            <button type="submit" class="btn btn_reg_login_google">
+                <a class="btn_reg_login_link" href="#">
+                    <img class="btn_reg_login_img" src="./icons/google 1.svg" alt="login-google">
+                    <span class="btn_reg_login_link_text text_link_g">Continue with Google</span>
+                </a>
+            </button>
+
+            <button type="submit" class="btn btn_reg_login_facebook">
+                <a class="btn_reg_login_link" href="https://facebook.com">
+                    <img class="btn_reg_login_img" src="./icons/facebook 1.svg" alt="login-facebook">
+                    <span class="btn_reg_login_link_text text_link_f">Continue with Facebook</span>
+                </a>
+            </button>
+        </div>
+        <div class="container_reg_footer"></div>
+    </div>
+</body>
+</html>
