@@ -204,6 +204,11 @@ padding: 30px 120px 0;
     max-width: 840px;
 }
 
+.comtainer-short-by{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .short-by{
     display: flex;
@@ -227,6 +232,28 @@ padding: 30px 120px 0;
     font-size: 15px;
     line-height: 16px;
     color: #46A358;
+}
+
+.default-sorting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container-text-sorting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.text-sorting{
+    font-family: "Cera Pro Regular";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
 }
 
 .section-shop-card{
@@ -264,7 +291,7 @@ padding: 30px 120px 0;
 }
 
 .card-price{
-    padding-top: 6px;
+    margin-top: 6px;
     font-family: "Cera Pro Bold";
     font-weight: 700;
     font-size: 18px;
@@ -307,4 +334,8 @@ padding: 30px 120px 0;
     font-size: 18px;
     line-height: 16px;
     color: #3D3D3D;
+}
+
+.section-more-info{
+    padding: 100px 120px 0;
 }
