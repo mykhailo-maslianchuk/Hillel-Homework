@@ -353,7 +353,7 @@ padding: 30px 120px 0;
 }
 
 .info-more{
-    padding: 50px 40px 50px 292px;
+    padding: 37px 30px 46px 264px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -406,10 +406,99 @@ padding: 30px 120px 0;
 
 .container-info-more-img{
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
     left:0;
 }
 
 .section-posts{
-    padding: 138px 120px 0;
+    padding: 138px 120px 100px;
+}
+
+.head-post-text{
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "Cera Pro Bold";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.subtitle-post-text{
+    margin-top: 15px;
+    color: #727272;
+    text-align: center;
+    font-family: "Cera Pro Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container-posts{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 43px;
+    background-color: #FBFBFB;
+}
+
+.card-post{
+    max-width: 268px;
+}
+
+.card-post-info{
+    padding: 9px 13px 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.interaction-card-time{
+    color: #46A358;
+    font-family: "Cera Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.head-card-post{
+    max-width: 202px;
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.subtitle-card-post{
+    color: #727272;
+    font-family: "Cera Pro Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.post-link{
+    padding: 0 164px 13px 14px;
+}
+
+.read-more-card-linc{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #3D3D3D;
+    font-family: "Cera Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.read-more-card-linc.active{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #46A358;
+    font-family: "Cera Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
 }
