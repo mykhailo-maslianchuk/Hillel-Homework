@@ -438,11 +438,11 @@ padding: 30px 120px 0;
     display: flex;
     justify-content: space-between;
     gap: 43px;
-    background-color: #FBFBFB;
 }
 
 .card-post{
     max-width: 268px;
+    background-color: #FBFBFB;
 }
 
 .card-post-info{
