@@ -23,7 +23,7 @@ a:hover  {
 
 /* Common */
 
-aside, nav, footer, header, section, main, span, svg, h3, p, button, a {
+aside, nav, footer, header, section, main, span, svg, h3, p, button, a, ul, li {
 	display: block;
 }
 

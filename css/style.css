@@ -267,13 +267,63 @@ padding: 30px 120px 0;
     column-gap: 30px;
 }
 
+.shop-card-border-top:hover{
+    border-top: 1px solid #46A358;
+}
+
+.shop-card:hover .shop-card-icon{
+    display: contents;
+    display: flex;
+    min-width: 125px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 7px;
+}
+
 .background-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-width: 258px;
     min-height: 300px;
     background-color: #FBFBFB;
+    position: relative;
+}
+
+.shop-card-icon{
+    display: none;
+}
+
+.card-icon{
+    padding: 6px 8px 6px 8px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.card-icon>a>svg{
+    fill: #000;
+}
+
+.card-icon>a:hover>svg{
+    fill: #46A358;
+}
+
+.block-sele{
+    position: absolute;
+    left: 0;
+    top: 14px;
+    padding: 7px 9px 7px 9px;
+    color: #FFF;
+    background-color: #46A358;
+    text-align: center;
+    vertical-align: center;
+    font-family: "Cera Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
 }
 
 .card-img{
@@ -290,8 +340,22 @@ padding: 30px 120px 0;
     color: #3D3D3D;
 }
 
-.card-price{
+.container-card-price{
     margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-price-sale{
+    color: #A5A5A5;
+    font-family: "Cera Pro Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.card-price{
     font-family: "Cera Pro Bold";
     font-weight: 700;
     font-size: 18px;
