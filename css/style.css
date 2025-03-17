@@ -267,10 +267,6 @@ padding: 30px 120px 0;
     column-gap: 30px;
 }
 
-.shop-card-border-top:hover{
-    border-top: 1px solid #46A358;
-}
-
 .shop-card:hover .shop-card-icon{
     display: contents;
     display: flex;
@@ -281,6 +277,15 @@ padding: 30px 120px 0;
     position: absolute;
     bottom: 7px;
 }
+
+.shop-card.shop-card-border{
+    border-top: 1px solid #FBFBFB;
+}
+
+.shop-card.shop-card-border:hover{
+    border-top: 1px solid #46A358;
+}
+
 
 .background-img{
     display: flex;
