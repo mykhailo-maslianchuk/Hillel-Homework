@@ -663,6 +663,7 @@ header{
 .read-more-card-linc{
     display: flex;
     align-items: center;
+
     gap: 3px;
     color: #3D3D3D;
     font-family: "Cera Pro Medium";
@@ -671,7 +672,7 @@ header{
     line-height: 16px;
 }
 
-.read-more-card-linc.active{
+.post-link:hover .read-more-card-linc{
     display: flex;
     align-items: center;
     gap: 3px;
@@ -680,4 +681,12 @@ header{
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
+}
+
+.read-more-card-linc>svg{
+    fill: #3D3D3D;
+}
+
+.post-link:hover .read-more-card-linc>svg{
+    fill: #46A358;
 }
