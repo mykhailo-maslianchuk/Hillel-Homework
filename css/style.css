@@ -29,7 +29,7 @@
 }
 
 header{
-padding: 30px 120px 0;
+    padding: 30px 120px 0;
 }
 
 .header{
@@ -41,6 +41,109 @@ padding: 30px 120px 0;
 
 .list-item{
     padding: 8px 0 25px 0;
+    position: relative;
+}
+
+.menu-item-3:hover .sub-list{
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    padding-top: 37px;
+    position: absolute;
+    left: -56px;
+    z-index: 1;
+}
+
+.sub-list{
+    display: none;
+}
+
+.sub-list-item{
+    background-color: #EDF6EE;
+}
+
+.sub-list-item:hover{
+    background-color: #1A712A;
+}
+
+.sub-list-item:hover .icon-sub-list-item{
+    display: contents;
+}
+
+.sub-list-item:hover .sub-list-item-link{
+    color: #FFF;
+    font-family: "Cera Pro Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sub-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 18px 8px 14px;
+    min-width: 188px;
+    min-height: 35px;
+}
+
+.sub-list-item-link{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon-sub-list-item{
+    display: none;
+}
+
+.sub-list-item-4:hover .drop-drown-list-item{
+    display: contents;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 18px 8px 14px;
+    min-width: 188px;
+    min-height: 35px;
+}
+
+.drop-down-list{
+    padding-left: 10px;
+    position: absolute;
+    left: 180px;
+    top: 37px;
+    z-index: 1;
+}
+
+.drop-drown-list-item{
+    display: none;
+}
+
+.drop-drown-list-item{
+    background-color: #EDF6EE;
+}
+
+.drop-drown-list-item:hover{
+    background-color: #1A712A;
+
+}
+
+.drop-drown-list-item:hover .drop-drown-list-item-link{
+    color: #FFF;
+    font-family: "Cera Pro Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.drop-drown-list-item-link{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .link-nav{
@@ -279,7 +382,7 @@ padding: 30px 120px 0;
 }
 
 .shop-card.shop-card-border{
-    border-top: 1px solid #FBFBFB;
+    border-top: 1px solid transparent;
 }
 
 .shop-card.shop-card-border:hover{
@@ -292,8 +395,6 @@ padding: 30px 120px 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-width: 258px;
-    min-height: 300px;
     background-color: #FBFBFB;
     position: relative;
 }
