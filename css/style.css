@@ -53,7 +53,7 @@ header{
     display: contents;
     display: flex;
     flex-direction: column;
-    padding-top: 37px;
+    padding-top: 41px;
     position: absolute;
     left: -56px;
     z-index: 1;
@@ -121,7 +121,7 @@ header{
     padding-left: 10px;
     position: absolute;
     left: 180px;
-    top: 37px;
+    top: 41px;
     z-index: 1;
 }
 
@@ -590,7 +590,7 @@ header{
 }
 
 .section-posts{
-    padding: 138px 120px 100px;
+    padding: 138px 120px 0;
 }
 
 .head-post-text{
@@ -689,4 +689,261 @@ header{
 
 .post-link:hover .read-more-card-linc>svg{
     fill: #46A358;
+}
+
+
+footer{
+    padding: 100px 120px 0;
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+    background-color: #FBFBFB;
+}
+
+.container-footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    gap: 30px;
+    background-color: #FBFBFB;
+}
+
+.card-footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer-info.card-footer-info-1{
+    background-image: url(../img/futer-card-1.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+}
+
+.card-footer-info.card-footer-info-2{
+    background-image: url(../img/futer-card-2.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+}
+
+.card-footer-info.card-footer-info-3{
+    background-image: url(../img/futer-card-3.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+}
+
+.line-footer-info{
+    height: 187px;
+    width: 1px;
+    background-color: rgba(70, 163, 88, 0.10);;
+}
+
+.card-footer-text{
+    padding: 132px 0 23px 0;
+}
+
+.heder-footer-text{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.subtitle-footer-text{
+    margin-top: 9px;
+    max-width: 204px;
+    color: #727272;
+    font-family: "Cera Pro Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.container-footer-newsletter{
+    flex-grow: 1;
+    background-color: #FBFBFB;
+}
+
+.card-footer-newsletter{
+    padding: 37px 0 32px 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.heder-newsletter-text{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.container-newsletter-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-newsletter{
+    min-width: 354px;
+    padding: 12px 0 12px 11px;
+    background: #FBFBFB;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    color: #ACACAC;
+    font-family: "Cera Pro Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.btn-newsletter-newsletter{
+    padding: 12px 25px 12px 25px;
+    border-radius: 0 6px 6px 0;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background: #46A358;
+    color: #FBFBFB;;
+    font-family: "Cera Pro Medium";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.subtitle-newsletter-text{
+    max-width: 354px;
+    color: #727272;
+    font-family: "Cera Pro Regular";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.container-contacts{
+    height: 88px;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%) no-repeat;
+    padding: 27px 22px 0 23px;
+}
+
+.contact-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 155px;
+}
+
+.contact{
+    display: flex;
+    gap: 10px;
+}
+
+.contact-link{
+    max-width: 176px;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+/* ____________________________________________________________________________________ */
+
+.section-three{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.20);
+    padding: 0 155px 0 25px;
+}
+
+.container-three-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    gap: 61px;
+    background-color: #FBFBFB;
+    padding: 33px 0 29px 0;
+}
+
+.card-three-info{
+    min-width: 204px;
+}
+
+.link-three-info{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container-external-data{
+    background-color: #FBFBFB;
+    padding: 33px 0 49px 66px;
+    flex-grow: 1;
+}
+
+.head-three-info{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.list-three-info{
+    margin-top: 8px;
+}
+
+.head-social-info{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.icon-social-list{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.container-pay-systems{
+    margin-top: 33px;
+    min-width: 224px;
+    min-height: 55px;
+    background-image: url(../img/pay.png);
+    background-repeat: no-repeat;
+    background-position: 0 29px;
+}
+
+.head-pay-info{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.rights-reserved{
+    padding: 8px 120px 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
 }
