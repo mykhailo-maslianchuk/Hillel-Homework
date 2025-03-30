@@ -287,24 +287,35 @@ header{
 }
 
 .list-categories{
-    padding:  0 189px 377px 30px;
+    padding: 0 24px 0 30px;
 }
 
-.list-categories-item{
+.checkbox-text>span{
     font-family: "Cera Pro Regular";
     font-weight: 400;
     font-size: 15px;
     line-height: 40px;
     color: #3D3D3D;
+    transition: color 0.3s;
 }
 
-.list-categories-item.active{
+.checkbox-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 137px;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox input:checked + .checkbox-text span {
     font-family: "Cera Pro Bold";
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 40px;
+    font-weight: 700;
     color: #46A358;
 }
+
 
 .comtainer-sale{
     min-width: 370px;
