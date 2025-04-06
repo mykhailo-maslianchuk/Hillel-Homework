@@ -958,3 +958,120 @@ footer{
     font-weight: 400;
     line-height: 30px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1400px){
+    body{
+        margin: 0;
+    }
+
+    header{
+        padding: 30px 48px 0;
+    }
+
+    .section-main{
+        padding: 12px 48px 0;
+    }
+
+    .product-img-position{
+        position: absolute;
+        top: 190px;
+        left: 25px;
+    }
+
+    .section-shop{
+        padding: 46px 48px 0;
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    .container-shop-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 50px;
+        column-gap: 10px;
+    }
+
+    .section-shop-footer{
+        padding: 90px 48px 0;
+    }
+
+    .section-info-more{
+        padding: 100px 48px 0;
+    }
+
+    .container-info-more{
+        min-width: 450px;
+    }
+
+    .info-more {
+        padding: 37px 30px 46px 220px;
+    }
+
+    .info-more-text{
+        font-size: 10px;
+    }
+
+    .info-more-text-pr{
+        font-size: 10px;
+    }
+
+    .container-posts{
+        display: grid;
+        justify-content: space-between;
+        column-gap: 70px;grid-template-columns: 268px 268px;
+
+    }
+
+    footer{
+        padding: 100px 48px 0;
+    }
+
+    .contact-data{
+        gap: 0;
+    }
+
+    .card-three-info{
+        min-width: 100px;
+    }
+
+    .container-external-data{
+        padding: 33px 0 49px 73px;
+    }
+
+}
+
+@media screen and (min-width: 2048px){
+    .section-shop{
+    padding: 46px 120px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    }
+
+    .container-aside{
+        flex-grow: 0;
+    }
+
+    .comtainer-main-shop{
+        max-width: 1200px;
+        flex-grow: 3;
+    }
+
+    .container-shop-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 70px;
+        column-gap: 30px;
+}
+
+    .card-footer-newsletter{
+        padding: 37px 0 32px 250px;
+    }
+
+    .container-external-data{
+        padding: 33px 0 49px 250px;
+    }
+}
