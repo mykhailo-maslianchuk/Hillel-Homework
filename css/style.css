@@ -972,6 +972,10 @@ footer{
         padding: 12px 48px 0;
     }
 
+    .checkbox-text{
+        min-width: 256px;
+    }
+
     .product-img-position{
         position: absolute;
         top: 190px;
@@ -1006,7 +1010,11 @@ footer{
     }
 
     .info-more {
-        padding: 37px 30px 46px 220px;
+        padding: 37px 30px 46px 200px;
+    }
+
+    .container-info-more-img{
+        left: -45px;
     }
 
     .info-more-text{
@@ -1046,7 +1054,7 @@ footer{
     .section-shop{
     padding: 46px 120px 0;
     display: flex;
-    gap: 50px;
+    gap: 150px;
     justify-content: space-between;
     }
 
@@ -1054,9 +1062,17 @@ footer{
         flex-grow: 0;
     }
 
+    .list-categories {
+    padding: 0 24px 150px 30px;
+}
+
     .comtainer-main-shop{
-        max-width: 1200px;
-        flex-grow: 3;
+        flex-grow: 1;
+        max-width: none;
+    }
+
+    .checkbox-text{
+        min-width: 256px;
     }
 
     .container-shop-card {
