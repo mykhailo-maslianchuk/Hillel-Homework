@@ -1054,7 +1054,7 @@ footer{
 
 }
 
-@media screen and (min-width: 2048px){
+@media screen and (min-width: 2048px) and (max-width: 2560px){
     .section-shop{
     padding: 46px 120px 0;
     display: flex;
